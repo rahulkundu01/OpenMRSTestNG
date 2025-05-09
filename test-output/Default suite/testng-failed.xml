@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestClasses.EndVisitTest">
+      <class name="TestClasses.AddConditionTest">
         <methods>
-          <include name="endVisit"/>
           <include name="teardownDriver"/>
           <include name="setupExtent"/>
+          <include name="addCondition"/>
           <include name="openBrowser"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestClasses.EndVisitTest -->
+      </class> <!-- TestClasses.AddConditionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

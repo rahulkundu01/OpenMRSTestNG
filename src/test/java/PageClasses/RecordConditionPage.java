@@ -30,7 +30,7 @@ public class RecordConditionPage extends BaseClass {
 	}
 	
 	public static By verifyCondition() {
-		return By.xpath("(//tbody[@aria-live='polite']/tr)[2]");
+		return By.xpath("(//tbody[@aria-live='polite']/tr)[1]");
 	}
 
 }
