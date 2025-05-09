@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,  3 skipped,  2 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,  3 skipped,  4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddPatVitalsTest" class="method navigator-link" hash-for-method="addPatVitals">addPatVitals</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddConditionTest" class="method navigator-link" hash-for-method="addCondition">addCondition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddAppointmentTest" class="method navigator-link" hash-for-method="addVisit">addVisit</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -117,7 +122,7 @@
                     <div class="method-list-content skipped suite-Surefire_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddPatVitalsTest" class="method navigator-link" hash-for-method="addPatVitals">addPatVitals</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddConditionTest" class="method navigator-link" hash-for-method="addCondition">addCondition</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -127,7 +132,7 @@
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddPatVitalsTest" class="method navigator-link" hash-for-method="addPatVitals">addPatVitals</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddAppointmentTest" class="method navigator-link" hash-for-method="addVisit">addVisit</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Surefire_suite -->
@@ -141,7 +146,17 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.AddPatVitalsTest" class="method navigator-link" hash-for-method="addPatVitals">addPatVitals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.RegisterPatientTest" class="method navigator-link" hash-for-method="addPatient(Harry, dsouza, 32, Mumbai)">addPatient(Harry, dsouza, 32, Mumbai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestClasses.EndVisitTest" class="method navigator-link" hash-for-method="endVisit">endVisit</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -164,24 +179,52 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">TestClasses.AddPatVitalsTest</span>
+              <span class="class-name">TestClasses.AddConditionTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addPatVitals">
-                  </a> <!-- addPatVitals -->
-                  <span class="method-name">addPatVitals</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+                  <a name="addCondition">
+                  </a> <!-- addCondition -->
+                  <span class="method-name">addCondition</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),&apos;Harry dsouza&apos;)])[1] (tried for 40 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c6e7d493f798111fa63fa228c6c7c0db
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56621/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f556834f5779042aeb403fead715eca
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at Utilities.BaseClass.addExplicitWait(BaseClass.java:119)
-	at TestClasses.AddPatVitalsTest.addPatVitals(AddPatVitalsTest.java:18)
+	at Utilities.BaseClass.addExplicitWait(BaseClass.java:126)
+	at TestClasses.AddConditionTest.addCondition(AddConditionTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestClasses.AddAppointmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addVisit">
+                  </a> <!-- addVisit -->
+                  <span class="method-name">addVisit</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class=&apos;cds--btn cds--btn--primary&apos; and @type =&apos;button&apos;])[1] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a203f26d7a7643ac28d9ceaa366e0d0f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at Utilities.BaseClass.addExplicitWait(BaseClass.java:126)
+	at TestClasses.AddAppointmentTest.addVisit(AddAppointmentTest.java:45)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
@@ -200,56 +243,72 @@ Session ID: c6e7d493f798111fa63fa228c6c7c0db
                   <a name="addPatVitals">
                   </a> <!-- addPatVitals -->
                   <span class="method-name">addPatVitals</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),&apos;Harry dsouza&apos;)])[1] (tried for 40 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54177/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 89aca60077a9b4154b81dbf2b8224f8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56678/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3f23e0d2ed003696814e2ca8020c8fa
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at Utilities.BaseClass.addExplicitWait(BaseClass.java:119)
-	at TestClasses.AddPatVitalsTest.addPatVitals(AddPatVitalsTest.java:18)
+	at Utilities.BaseClass.addExplicitWait(BaseClass.java:126)
+	at TestClasses.AddPatVitalsTest.addPatVitals(AddPatVitalsTest.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestClasses.AddConditionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addPatVitals">
-                  </a> <!-- addPatVitals -->
-                  <span class="method-name">addPatVitals</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+                  <a name="addCondition">
+                  </a> <!-- addCondition -->
+                  <span class="method-name">addCondition</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),&apos;Harry dsouza&apos;)])[1] (tried for 40 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54272/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc8b1f45d42f6b684ae0fa29cd5e0060
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56559/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09b2f3fd64549a0ebdf9041e6cb2a90b
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at Utilities.BaseClass.addExplicitWait(BaseClass.java:119)
-	at TestClasses.AddPatVitalsTest.addPatVitals(AddPatVitalsTest.java:18)
+	at Utilities.BaseClass.addExplicitWait(BaseClass.java:126)
+	at TestClasses.AddConditionTest.addCondition(AddConditionTest.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestClasses.AddAppointmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addPatVitals">
-                  </a> <!-- addPatVitals -->
-                  <span class="method-name">addPatVitals</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+                  <a name="addVisit">
+                  </a> <!-- addVisit -->
+                  <span class="method-name">addVisit</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class=&apos;cds--btn cds--btn--primary&apos; and @type =&apos;button&apos;])[1] (tried for 40 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54223/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b89ab8215eb4588035406b1068a4344f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56444/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a5120200562b1c64ed57392b44fb789
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at Utilities.BaseClass.addExplicitWait(BaseClass.java:119)
-	at TestClasses.AddPatVitalsTest.addPatVitals(AddPatVitalsTest.java:18)
+	at Utilities.BaseClass.addExplicitWait(BaseClass.java:126)
+	at TestClasses.AddAppointmentTest.addVisit(AddAppointmentTest.java:45)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
@@ -260,15 +319,29 @@ Session ID: b89ab8215eb4588035406b1068a4344f
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestClasses.RegisterPatientTest</span>
+              <span class="class-name">TestClasses.AddPatVitalsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addPatient(Harry, dsouza, 32, Mumbai)">
-                  </a> <!-- addPatient(Harry, dsouza, 32, Mumbai) -->
-                  <span class="method-name">addPatient</span>
-                  <span class="parameters">(Harry,dsouza,32,Mumbai)</span>
+                  <a name="addPatVitals">
+                  </a> <!-- addPatVitals -->
+                  <span class="method-name">addPatVitals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestClasses.EndVisitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="endVisit">
+                  </a> <!-- endVisit -->
+                  <span class="method-name">endVisit</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,6 +361,22 @@ Session ID: b89ab8215eb4588035406b1068a4344f
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestClasses.RegisterPatientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPatient(Harry, dsouza, 32, Mumbai)">
+                  </a> <!-- addPatient(Harry, dsouza, 32, Mumbai) -->
+                  <span class="method-name">addPatient</span>
+                  <span class="parameters">(Harry,dsouza,32,Mumbai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -299,7 +388,10 @@ Session ID: b89ab8215eb4588035406b1068a4344f
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;TestClasses.AddAppointmentTest&quot;/&gt;
+      &lt;class name=&quot;TestClasses.AddConditionTest&quot;/&gt;
       &lt;class name=&quot;TestClasses.AddPatVitalsTest&quot;/&gt;
+      &lt;class name=&quot;TestClasses.EndVisitTest&quot;/&gt;
       &lt;class name=&quot;TestClasses.LoginTest&quot;/&gt;
       &lt;class name=&quot;TestClasses.RegisterPatientTest&quot;/&gt;
     &lt;/classes&gt;
@@ -315,7 +407,7 @@ Session ID: b89ab8215eb4588035406b1068a4344f
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -329,11 +421,23 @@ Session ID: b89ab8215eb4588035406b1068a4344f
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">addCondition</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">addPatVitals</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">addPatient</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addVisit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">endVisit</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -357,36 +461,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addPatVitals')
-data.setCell(0, 2, 'TestClasses.AddPatVitalsTest')
-data.setCell(0, 3, 43903);
+data.setCell(0, 1, 'addVisit')
+data.setCell(0, 2, 'TestClasses.AddAppointmentTest')
+data.setCell(0, 3, 49006);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addPatVitals')
-data.setCell(1, 2, 'TestClasses.AddPatVitalsTest')
-data.setCell(1, 3, 43641);
+data.setCell(1, 1, 'addVisit')
+data.setCell(1, 2, 'TestClasses.AddAppointmentTest')
+data.setCell(1, 3, 48793);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addPatVitals')
 data.setCell(2, 2, 'TestClasses.AddPatVitalsTest')
-data.setCell(2, 3, 43580);
+data.setCell(2, 3, 44003);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addPatVitals')
-data.setCell(3, 2, 'TestClasses.AddPatVitalsTest')
-data.setCell(3, 3, 43569);
+data.setCell(3, 1, 'addCondition')
+data.setCell(3, 2, 'TestClasses.AddConditionTest')
+data.setCell(3, 3, 43880);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addPatient')
-data.setCell(4, 2, 'TestClasses.RegisterPatientTest')
-data.setCell(4, 3, 38817);
+data.setCell(4, 1, 'addCondition')
+data.setCell(4, 2, 'TestClasses.AddConditionTest')
+data.setCell(4, 3, 43601);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'executeLoginTest')
-data.setCell(5, 2, 'TestClasses.LoginTest')
-data.setCell(5, 3, 2118);
+data.setCell(5, 1, 'addPatient')
+data.setCell(5, 2, 'TestClasses.RegisterPatientTest')
+data.setCell(5, 3, 38845);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addPatVitals')
+data.setCell(6, 2, 'TestClasses.AddPatVitalsTest')
+data.setCell(6, 3, 38680);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'endVisit')
+data.setCell(7, 2, 'TestClasses.EndVisitTest')
+data.setCell(7, 3, 24857);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'executeLoginTest')
+data.setCell(8, 2, 'TestClasses.LoginTest')
+data.setCell(8, 3, 2080);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -398,7 +514,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addPatient(Harry, dsouza, 32, Mumbai)</span>
+              <span class="reporter-method-name">addPatVitals</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test has been started</span>
                 <span class="reporter-method-output">Test case is passed</span>
@@ -412,21 +528,42 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addPatVitals</span>
+              <span class="reporter-method-name">addPatient(Harry, dsouza, 32, Mumbai)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test has been started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">endVisit</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test has been started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCondition</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test has been started</span>
                 <span class="reporter-method-output">My Test Case got failed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addPatVitals</span>
+              <span class="reporter-method-name">addVisit</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test has been started</span>
+                <span class="reporter-method-output">My Test Case got failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCondition</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test has been started</span>
                 <span class="reporter-method-output">Test case is skipped</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addPatVitals</span>
+              <span class="reporter-method-name">addVisit</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test has been started</span>
                 <span class="reporter-method-output">Test case is skipped</span>
@@ -443,20 +580,61 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">15 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">TestClasses.RegisterPatientTest</span>
+              <span class="ignored-class-name">TestClasses.AddPatVitalsTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">teardown</span>
+                <span class="ignored-method-name">setupExtent</span>
+                <br/>
+                <span class="ignored-method-name">teardownDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestClasses.EndVisitTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardownDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setupExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestClasses.AddConditionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupExtent</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">teardownDriver</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">TestClasses.LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">teardown</span>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">teardownDriver</span>
+                <br/>
+                <span class="ignored-method-name">setupExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestClasses.RegisterPatientTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardownDriver</span>
+                <br/>
+                <span class="ignored-method-name">setupExtent</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -468,71 +646,112 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestClasses.AddPatVitalsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
+              <div class="chronological-class-name">TestClasses.AddAppointmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupExtent</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">299 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addPatVitals</span>
-                <span class="method-start">8467 ms</span>
+                <span class="method-name">addVisit</span>
+                <span class="method-start">18361 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">52108 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addPatVitals</span>
-                <span class="method-start">58117 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">102021 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addPatVitals</span>
-                <span class="method-start">108272 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">151853 ms</span>
+                <span class="method-start">67379 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">addVisit</span>
+                <span class="method-start">74906 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestClasses.AddConditionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">124040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCondition</span>
+                <span class="method-start">131175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">175057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCondition</span>
+                <span class="method-start">182578 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestClasses.AddPatVitalsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">226476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <span class="method-name">addPatVitals</span>
-                <span class="method-start">157783 ms</span>
+                <span class="method-start">234153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">278158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addPatVitals</span>
+                <span class="method-start">286753 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestClasses.EndVisitTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">325586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">endVisit</span>
+                <span class="method-start">332937 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestClasses.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">201549 ms</span>
+                <span class="method-start">358000 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">executeLoginTest</span>
-                <span class="method-start">208132 ms</span>
+                <span class="method-start">365799 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestClasses.RegisterPatientTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">210384 ms</span>
+                <span class="method-start">368005 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addPatient(Harry, dsouza, 32, Mumbai)</span>
-                <span class="method-start">217109 ms</span>
+                <span class="method-start">376686 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">TestClasses.AddPatVitalsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestClasses.AddAppointmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardownDriver</span>
+                <span class="method-start">415802 ms</span>
+              </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">teardown</span>
-                <span class="method-start">256154 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">416144 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
