@@ -13,7 +13,7 @@ public class RecordConditionPage extends BaseClass {
 	
 	
 	public static By clickOnRecordCondition() {
-		return By.xpath("//button[contains(normalize-space(),'Record conditions')]");
+		return By.xpath("(//button[normalize-space()='Record conditions'])[1]");
 	}
 	
 	public static By enterCondition() {
