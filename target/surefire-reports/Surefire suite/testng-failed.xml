@@ -5,11 +5,31 @@
     <classes>
       <class name="TestClasses.AddPatVitalsTest">
         <methods>
+          <include name="teardownDriver"/>
           <include name="addPatVitals"/>
-          <include name="teardown"/>
+          <include name="setupExtent"/>
           <include name="openBrowser"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- TestClasses.AddPatVitalsTest -->
+      <class name="TestClasses.AddConditionTest">
+        <methods>
+          <include name="teardownDriver"/>
+          <include name="setupExtent"/>
+          <include name="addCondition"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestClasses.AddConditionTest -->
+      <class name="TestClasses.AddAppointmentTest">
+        <methods>
+          <include name="teardownDriver"/>
+          <include name="setupExtent"/>
+          <include name="addVisit"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestClasses.AddAppointmentTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

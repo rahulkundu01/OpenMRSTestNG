@@ -23,9 +23,10 @@ public class AddAppointmentTest extends BaseClass {
 	public void addVisit() throws InterruptedException, AWTException {
 	
 		testAppointment = reports.createTest("Add Appointment Flow");
-		
+		logger.info("***************TestCase Verify  Add Appointment starts*****************");
 		//loginNode = test.createNode("Login method is called");
 		loginNode = testAppointment.createNode("Login Steps");
+		logger.info("Login method is called");
 		obj2.executeLoginTest();
 		loginNode.log(Status.INFO, "Calling Login Test");
 		loginNode.log(Status.PASS, "Login successful");
@@ -33,18 +34,22 @@ public class AddAppointmentTest extends BaseClass {
 		addExplicitWait(AddAppointmentPage.clickAppointmentMenu());
 		driver.findElement(AddAppointmentPage.clickAppointmentMenu()).click();
 		testAppointment.log(Status.INFO, "Clicked on Appointment menu button");
+		logger.info("Clicked on add appointment menu");
 		
 		addExplicitWait(AddAppointmentPage.clickCreateNewAppointment());
 		driver.findElement(AddAppointmentPage.clickCreateNewAppointment()).click();
 		testAppointment.log(Status.INFO, "Clicked on Create new appointment button");
+		logger.info("Clicked on create new appointment");
 		
 		addExplicitWait(AddAppointmentPage.searchAppointment());
 		driver.findElement(AddAppointmentPage.searchAppointment()).sendKeys("Harry dsouza");
 		testAppointment.log(Status.INFO, "Search by the Patient name");
+		logger.info("Search by the Patient name");
 		
 		addExplicitWait(AddAppointmentPage.clickOnStartVisit());
 		driver.findElement(AddAppointmentPage.clickOnStartVisit()).click();
 		testAppointment.log(Status.INFO, "Clicked on Start Visit Button");
+		logger.info("Clicked on Start visit button");
 		
 		/*addExplicitWait(AddAppointmentPage.clickOnStartVisit_Profile());
 		driver.findElement(AddAppointmentPage.clickOnStartVisit_Profile()).click();
@@ -53,22 +58,27 @@ public class AddAppointmentTest extends BaseClass {
 		addExplicitWait(AddAppointmentPage.enterDate());
 		driver.findElement(AddAppointmentPage.enterDate()).sendKeys("04/05/2025");
 		testAppointment.log(Status.INFO, "Entered the date");
+		logger.info("Entered the date");
 		
 		addExplicitWait(AddAppointmentPage.enterTime());
 		driver.findElement(AddAppointmentPage.enterTime()).sendKeys("2:45");
 		testAppointment.log(Status.INFO, "Entered the time");
+		logger.info("Entered time");
 		
 		addExplicitWait(AddAppointmentPage.selectVisitType());
 		driver.findElement(AddAppointmentPage.selectVisitType()).click();
 		testAppointment.log(Status.INFO, "Select the visit type");
+		logger.info("Select the visit type");
 		
 		addExplicitWait(AddAppointmentPage.clickOnSubmit());
 		driver.findElement(AddAppointmentPage.clickOnSubmit()).click();
 		testAppointment.log(Status.INFO, "Clicked on Submit button");
+		logger.info("Clicked on submit button");
 		
 		addExplicitWait(AddAppointmentPage.clickOnHome());
 		driver.findElement(AddAppointmentPage.clickOnHome()).click();
-		testAppointment.log(Status.INFO, "Clicked on Home");;
+		testAppointment.log(Status.INFO, "Clicked on Home");
+		logger.info("Clicked on Home");
 
         System.out.println("Clicked on Home link.");
 
@@ -100,11 +110,13 @@ public class AddAppointmentTest extends BaseClass {
 		if(patAdd.isDisplayed()==true)
 		{	testAppointment.log(Status.PASS, "Test Case Passed: Appointment created");
 			System.out.println("Test case is successful");
+			logger.info("Test Case Passes: Appointment Created");
 		}
 	
 		else
 		{ 
 			testAppointment.log(Status.FAIL, "Test Case Failed: Appointment not created");
+			logger.info("Test case failed: Appointment not created");
 		 throw new NullPointerException("Patient Registation is failed");
 		
 		

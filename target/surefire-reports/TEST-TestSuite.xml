@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="261.52" tests="7" errors="0" skipped="3" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="417.795" tests="9" errors="0" skipped="3" failures="2">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\rahul\AppData\Local\Temp\surefire13902500596138573860\surefirebooter2144959498308992219.jar C:\Users\rahul\AppData\Local\Temp\surefire13902500596138573860 2025-05-04T10-11-08_035-jvmRun1 surefire7820599374923383511tmp surefire_09354707557623791197tmp"/>
+    <property name="sun.java.command" value="C:\Users\rahul\AppData\Local\Temp\surefire6437669406718759293\surefirebooter7652405127764041044.jar C:\Users\rahul\AppData\Local\Temp\surefire6437669406718759293 2025-05-08T08-35-42_577-jvmRun1 surefire5855612032449551109tmp surefire_07562697203635651772tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\selenium_java\RTMTestNgScratch\target\test-classes;C:\selenium_java\RTMTestNgScratch\target\classes;C:\Users\rahul\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\rahul\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rahul\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rahul\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\rahul\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\rahul\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\rahul\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\rahul\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\rahul\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\rahul\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\rahul\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\rahul\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\rahul\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\rahul\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\rahul\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\rahul\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\rahul\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\rahul\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\rahul\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\rahul\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\rahul\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\rahul\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\rahul\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\rahul\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rahul\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rahul\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\rahul\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\rahul\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\rahul\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\rahul\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\rahul\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\rahul\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\rahul\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\rahul\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\rahul\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\rahul\AppData\Local\Temp\surefire13902500596138573860\surefirebooter2144959498308992219.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rahul\AppData\Local\Temp\surefire6437669406718759293\surefirebooter7652405127764041044.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -59,91 +59,107 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="addPatVitals" classname="TestClasses.AddPatVitalsTest" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54177/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 89aca60077a9b4154b81dbf2b8224f8c"/>
-    <system-out><![CDATA[[INFO ] 2025-05-04 10:11:17.829 [main] Health Cart - url opened
-[INFO ] 2025-05-04 10:11:18.235 [main] Health Cart - ***************TestCase Verify Login starts*****************
-[INFO ] 2025-05-04 10:11:18.356 [main] Health Cart - User enters username
-[INFO ] 2025-05-04 10:11:18.442 [main] Health Cart - User clicks on continue button
-[INFO ] 2025-05-04 10:11:18.514 [main] Health Cart - User enters password
-[INFO ] 2025-05-04 10:11:18.594 [main] Health Cart - User clicks on Submit button
-[INFO ] 2025-05-04 10:11:20.200 [main] Health Cart - Login Successful
+  <testcase name="addVisit" classname="TestClasses.AddAppointmentTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class=&apos;cds--btn cds--btn--primary&apos; and @type =&apos;button&apos;])[1] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56444/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7a5120200562b1c64ed57392b44fb789"/>
+    <system-out><![CDATA[[INFO ] 2025-05-08 08:36:02.203 [main] Health Cart - url opened
+[INFO ] 2025-05-08 08:36:02.243 [main] Health Cart - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-05-08 08:36:02.404 [main] Health Cart - User enters username
+[INFO ] 2025-05-08 08:36:02.571 [main] Health Cart - User clicks on continue button
+[INFO ] 2025-05-08 08:36:02.709 [main] Health Cart - User enters password
+[INFO ] 2025-05-08 08:36:02.868 [main] Health Cart - User clicks on Submit button
+[INFO ] 2025-05-08 08:36:04.373 [main] Health Cart - Login Successful
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 04, 2025 10:11:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 08, 2025 8:35:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-May 04, 2025 10:11:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 08, 2025 8:35:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="addVisit" classname="TestClasses.AddAppointmentTest" time="48.805">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class=&apos;cds--btn cds--btn--primary&apos; and @type =&apos;button&apos;])[1] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a203f26d7a7643ac28d9ceaa366e0d0f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class='cds--btn cds--btn--primary' and @type ='button'])[1] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a203f26d7a7643ac28d9ceaa366e0d0f
+	at TestClasses.AddAppointmentTest.addVisit(AddAppointmentTest.java:45)
+</failure>
+    <system-out><![CDATA[[INFO ] 2025-05-08 08:36:58.759 [main] Health Cart - url opened
+[INFO ] 2025-05-08 08:36:58.765 [main] Health Cart - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-05-08 08:36:58.878 [main] Health Cart - User enters username
+[INFO ] 2025-05-08 08:36:59.012 [main] Health Cart - User clicks on continue button
+[INFO ] 2025-05-08 08:36:59.128 [main] Health Cart - User enters password
+[INFO ] 2025-05-08 08:36:59.277 [main] Health Cart - User clicks on Submit button
+[INFO ] 2025-05-08 08:37:00.846 [main] Health Cart - Login Successful
+]]></system-out>
+    <system-err><![CDATA[May 08, 2025 8:36:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 8:36:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="addCondition" classname="TestClasses.AddConditionTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),&apos;Harry dsouza&apos;)])[1] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56559/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09b2f3fd64549a0ebdf9041e6cb2a90b"/>
+    <system-out><![CDATA[[INFO ] 2025-05-08 08:37:55.033 [main] Health Cart - url opened
+[INFO ] 2025-05-08 08:37:55.034 [main] Health Cart - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-05-08 08:37:55.376 [main] Health Cart - User enters username
+[INFO ] 2025-05-08 08:37:55.484 [main] Health Cart - User clicks on continue button
+[INFO ] 2025-05-08 08:37:55.572 [main] Health Cart - User enters password
+[INFO ] 2025-05-08 08:37:55.664 [main] Health Cart - User clicks on Submit button
+[INFO ] 2025-05-08 08:37:57.142 [main] Health Cart - Login Successful
+]]></system-out>
+    <system-err><![CDATA[May 08, 2025 8:37:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 8:37:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="addCondition" classname="TestClasses.AddConditionTest" time="43.609">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),&apos;Harry dsouza&apos;)])[1] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56621/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6f556834f5779042aeb403fead715eca" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),'Harry dsouza')])[1] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56621/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f556834f5779042aeb403fead715eca
+	at TestClasses.AddConditionTest.addCondition(AddConditionTest.java:38)
+</failure>
+    <system-out><![CDATA[[INFO ] 2025-05-08 08:38:46.435 [main] Health Cart - url opened
+[INFO ] 2025-05-08 08:38:46.437 [main] Health Cart - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-05-08 08:38:46.550 [main] Health Cart - User enters username
+[INFO ] 2025-05-08 08:38:46.689 [main] Health Cart - User clicks on continue button
+[INFO ] 2025-05-08 08:38:46.774 [main] Health Cart - User enters password
+[INFO ] 2025-05-08 08:38:46.885 [main] Health Cart - User clicks on Submit button
+[INFO ] 2025-05-08 08:38:48.318 [main] Health Cart - Login Successful
+]]></system-out>
+    <system-err><![CDATA[May 08, 2025 8:38:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 8:38:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
   <testcase name="addPatVitals" classname="TestClasses.AddPatVitalsTest" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54223/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b89ab8215eb4588035406b1068a4344f"/>
-    <system-out><![CDATA[[INFO ] 2025-05-04 10:12:07.868 [main] Health Cart - url opened
-[INFO ] 2025-05-04 10:12:07.868 [main] Health Cart - ***************TestCase Verify Login starts*****************
-[INFO ] 2025-05-04 10:12:08.187 [main] Health Cart - User enters username
-[INFO ] 2025-05-04 10:12:08.250 [main] Health Cart - User clicks on continue button
-[INFO ] 2025-05-04 10:12:08.309 [main] Health Cart - User enters password
-[INFO ] 2025-05-04 10:12:08.370 [main] Health Cart - User clicks on Submit button
-[INFO ] 2025-05-04 10:12:10.016 [main] Health Cart - Login Successful
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: (//a[contains(text(),&apos;Harry dsouza&apos;)])[1] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56678/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f3f23e0d2ed003696814e2ca8020c8fa"/>
+    <system-out><![CDATA[[INFO ] 2025-05-08 08:39:38.009 [main] Health Cart - url opened
+[INFO ] 2025-05-08 08:39:38.011 [main] Health Cart - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-05-08 08:39:38.352 [main] Health Cart - User enters username
+[INFO ] 2025-05-08 08:39:38.461 [main] Health Cart - User clicks on continue button
+[INFO ] 2025-05-08 08:39:38.582 [main] Health Cart - User enters password
+[INFO ] 2025-05-08 08:39:38.749 [main] Health Cart - User clicks on Submit button
+[INFO ] 2025-05-08 08:39:40.294 [main] Health Cart - Login Successful
 ]]></system-out>
-    <system-err><![CDATA[May 04, 2025 10:12:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 08, 2025 8:39:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-May 04, 2025 10:12:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 08, 2025 8:39:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addPatVitals" classname="TestClasses.AddPatVitalsTest" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54272/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cc8b1f45d42f6b684ae0fa29cd5e0060"/>
-    <system-out><![CDATA[[INFO ] 2025-05-04 10:12:58.022 [main] Health Cart - url opened
-[INFO ] 2025-05-04 10:12:58.024 [main] Health Cart - ***************TestCase Verify Login starts*****************
-[INFO ] 2025-05-04 10:12:58.355 [main] Health Cart - User enters username
-[INFO ] 2025-05-04 10:12:58.414 [main] Health Cart - User clicks on continue button
-[INFO ] 2025-05-04 10:12:58.476 [main] Health Cart - User enters password
-[INFO ] 2025-05-04 10:12:58.531 [main] Health Cart - User clicks on Submit button
-[INFO ] 2025-05-04 10:12:59.935 [main] Health Cart - Login Successful
-]]></system-out>
-    <system-err><![CDATA[May 04, 2025 10:12:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 135
-May 04, 2025 10:12:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="addPatVitals" classname="TestClasses.AddPatVitalsTest" time="43.576">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart&apos;] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c6e7d493f798111fa63fa228c6c7c0db" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='/openmrs/spa/patient/be1795e1-85c3-4e1d-adee-9b05d5f424c7/chart'] (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c6e7d493f798111fa63fa228c6c7c0db
-	at TestClasses.AddPatVitalsTest.addPatVitals(AddPatVitalsTest.java:18)
-</failure>
-    <system-out><![CDATA[[INFO ] 2025-05-04 10:13:47.533 [main] Health Cart - url opened
-[INFO ] 2025-05-04 10:13:47.534 [main] Health Cart - ***************TestCase Verify Login starts*****************
-[INFO ] 2025-05-04 10:13:47.836 [main] Health Cart - User enters username
-[INFO ] 2025-05-04 10:13:47.900 [main] Health Cart - User clicks on continue button
-[INFO ] 2025-05-04 10:13:47.958 [main] Health Cart - User enters password
-[INFO ] 2025-05-04 10:13:48.015 [main] Health Cart - User clicks on Submit button
-[INFO ] 2025-05-04 10:13:49.403 [main] Health Cart - Login Successful
-]]></system-out>
-    <system-err><![CDATA[May 04, 2025 10:13:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 135
-May 04, 2025 10:13:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="executeLoginTest" classname="TestClasses.LoginTest" time="2.118"/>
-  <testcase name="addPatient" classname="TestClasses.RegisterPatientTest" time="38.819"/>
-  <testcase name="teardown" classname="TestClasses.AddPatVitalsTest" time="43.844">
-    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
-Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-</failure>
-  </testcase>
+  <testcase name="addPatVitals" classname="TestClasses.AddPatVitalsTest" time="38.68"/>
+  <testcase name="endVisit" classname="TestClasses.EndVisitTest" time="24.866"/>
+  <testcase name="executeLoginTest" classname="TestClasses.LoginTest" time="2.08"/>
+  <testcase name="addPatient" classname="TestClasses.RegisterPatientTest" time="38.859"/>
 </testsuite>
