@@ -44,7 +44,7 @@ public class RegisterPage {
 	public static By dobStataus()
 	{
 		//String dobSt="(//button[@aria-selected='true'])[2]";
-		return By.xpath("(//button[@aria-selected='false'])[2]");
+		return By.xpath("(//button[@class='cds--content-switcher-btn'])[2]");
 	}
 	//patient age
 	public static By age()

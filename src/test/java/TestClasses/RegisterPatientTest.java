@@ -74,10 +74,12 @@ public class RegisterPatientTest extends BaseClass {
 		driver.findElement(RegisterPage.gender()).click();
 		logger.info("Select Gender radio button");
 		testRegister.log(Status.INFO, "Select Gender radio button");
+		
 		Thread.sleep(3000);
 		driver.findElement(RegisterPage.dobStataus()).click();
 		logger.info("Entered Date of Birth");
 		testRegister.log(Status.INFO, "Entered Date of Birth");
+		
 		Thread.sleep(3000);
 		driver.findElement(RegisterPage.age()).sendKeys(ag);
 		logger.info("Entered Age");
