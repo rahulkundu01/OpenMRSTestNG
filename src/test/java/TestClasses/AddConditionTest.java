@@ -41,8 +41,13 @@ public class AddConditionTest extends BaseClass{
 		testConditions.log(Status.INFO, "Patient Name is clicked");
 		logger.info("Clicked on paitent name");
 		
-		addExplicitWait(RecordConditionPage.clickOnRecordCondition());
-		driver.findElement(RecordConditionPage.clickOnRecordCondition()).click();
+		/*addExplicitWait(RecordConditionPage.clickOnRecordCondition());
+		driver.findElement(RecordConditionPage.clickOnRecordCondition()).click();*/
+		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement button = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[normalize-space()='Record conditions'])[1]")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", button);
+		Thread.sleep(500); // just in case of smooth scrolling
+		button.click();
 		testConditions.log(Status.INFO, "Clicked on REcord condition");
 		logger.info("Clicked on Record condition");
 		
