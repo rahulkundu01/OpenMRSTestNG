@@ -8,23 +8,23 @@
       <![CDATA[Test case is passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-05-09T12:13:47 IST" name="Default suite" finished-at="2025-05-09T12:14:37 IST" duration-ms="50031">
+  <suite started-at="2025-05-10T08:34:03 IST" name="Default suite" finished-at="2025-05-10T08:34:31 IST" duration-ms="27970">
     <groups>
       <group name="sanity">
-        <method signature="RegisterPatientTest.addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.RegisterPatientTest@41d477ed]" name="addPatient" class="TestClasses.RegisterPatientTest"/>
+        <method signature="RegisterPatientTest.addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.RegisterPatientTest@765d7657]" name="addPatient" class="TestClasses.RegisterPatientTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-05-09T12:13:47 IST" name="Default test" finished-at="2025-05-09T12:14:37 IST" duration-ms="50031">
+    <test started-at="2025-05-10T08:34:03 IST" name="Default test" finished-at="2025-05-10T08:34:31 IST" duration-ms="27970">
       <class name="TestClasses.RegisterPatientTest">
-        <test-method is-config="true" signature="setupExtent()[pri:0, instance:TestClasses.RegisterPatientTest@41d477ed]" started-at="2025-05-09T12:13:46 IST" name="setupExtent" finished-at="2025-05-09T12:13:47 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:TestClasses.RegisterPatientTest@765d7657]" started-at="2025-05-10T08:34:03 IST" name="setupExtent" finished-at="2025-05-10T08:34:03 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestClasses.RegisterPatientTest@41d477ed]" started-at="2025-05-09T12:13:47 IST" name="openBrowser" finished-at="2025-05-09T12:13:55 IST" duration-ms="8816" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestClasses.RegisterPatientTest@765d7657]" started-at="2025-05-10T08:34:03 IST" name="openBrowser" finished-at="2025-05-10T08:34:14 IST" duration-ms="10734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.RegisterPatientTest@41d477ed]" started-at="2025-05-09T12:13:55 IST" name="addPatient" data-provider="MyDp1" finished-at="2025-05-09T12:14:36 IST" duration-ms="40751" status="PASS">
+        <test-method signature="addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.RegisterPatientTest@765d7657]" started-at="2025-05-10T08:34:14 IST" name="addPatient" data-provider="MyDp1" finished-at="2025-05-10T08:34:31 IST" duration-ms="16862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- addPatient -->
-        <test-method is-config="true" signature="teardownDriver()[pri:0, instance:TestClasses.RegisterPatientTest@41d477ed]" started-at="2025-05-09T12:14:36 IST" name="teardownDriver" finished-at="2025-05-09T12:14:37 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="teardownDriver()[pri:0, instance:TestClasses.RegisterPatientTest@765d7657]" started-at="2025-05-10T08:34:31 IST" name="teardownDriver" finished-at="2025-05-10T08:34:31 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.RegisterPatientTest@41d477ed]" started-at="2025-05-09T12:14:37 IST" name="tearDown" finished-at="2025-05-09T12:14:37 IST" duration-ms="744" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.RegisterPatientTest@765d7657]" started-at="2025-05-10T08:34:31 IST" name="tearDown" finished-at="2025-05-10T08:34:32 IST" duration-ms="626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

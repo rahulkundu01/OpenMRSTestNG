@@ -3,6 +3,8 @@ package TestClasses;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -53,46 +55,64 @@ public class RegisterPatientTest extends BaseClass {
 	
 		//
 		
-		Thread.sleep(3000);
+		addExplicitWait(RegisterPage.addPatientButton());
 		driver.findElement(RegisterPage.addPatientButton()).click();
 		logger.info("Clicked on Add patient menu button");
 		testRegister.log(Status.INFO, "Clicked on Add patient menu button");
-		Thread.sleep(3000);
+		
+		addExplicitWait(RegisterPage.patientIdentityButton());
 		driver.findElement(RegisterPage.patientIdentityButton()).click();
 		logger.info("Clicked on Patient identity button");
 		testRegister.log(Status.INFO, "Clicked on Patient identity button");
-		Thread.sleep(3000);
+		
+		addExplicitWait(RegisterPage.firstName());
 		driver.findElement(RegisterPage.firstName()).sendKeys(fn);
 		logger.info("Entered First name");
 		testRegister.log(Status.INFO, "Entered First name");
-		Thread.sleep(3000);
+		
+		addExplicitWait(RegisterPage.lastName());
 		driver.findElement(RegisterPage.lastName()).sendKeys(ln);
 		logger.info("Entered Last name");
 		testRegister.log(Status.INFO, "Entered Last name");
-		Thread.sleep(3000);
+		
+		addExplicitWait(RegisterPage.gender());
 		scrollDown();
 		driver.findElement(RegisterPage.gender()).click();
 		logger.info("Select Gender radio button");
 		testRegister.log(Status.INFO, "Select Gender radio button");
 		
-		Thread.sleep(3000);
-		driver.findElement(RegisterPage.dobStataus()).click();
+		addExplicitWait(RegisterPage.dobStataus());
+		WebElement regElement = driver.findElement(RegisterPage.dobStataus());
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", regElement);
+		Thread.sleep(500);
+
+		// Try regular click first
+		try {
+		    regElement.click();
+		} catch (ElementClickInterceptedException e) {
+		    // Fallback to JS click
+		    ((JavascriptExecutor) driver).executeScript("arguments[0].click();", regElement);
+		}
+
 		logger.info("Entered Date of Birth");
 		testRegister.log(Status.INFO, "Entered Date of Birth");
 		
-		Thread.sleep(3000);
+		addExplicitWait(RegisterPage.age());
 		driver.findElement(RegisterPage.age()).sendKeys(ag);
 		logger.info("Entered Age");
 		testRegister.log(Status.INFO, "Entered Age");
-		Thread.sleep(3000);
+		
+		addExplicitWait(RegisterPage.address());
 		scrollDown();
 		driver.findElement(RegisterPage.address()).sendKeys(add);
 		logger.info("Entered Address");
 		testRegister.log(Status.INFO, "Entered Address");
-		Thread.sleep(3000);
+		
+		addExplicitWait(RegisterPage.btnregPat());
 		driver.findElement(RegisterPage.btnregPat()).click();
 		logger.info("Clicked on register button");
 		testRegister.log(Status.INFO, "Clicked on register button");
+		
 		Thread.sleep(3000);
 		WebElement patId=driver.findElement(RegisterPage.validatePatID());
 		
