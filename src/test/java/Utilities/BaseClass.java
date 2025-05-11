@@ -61,7 +61,7 @@ public class BaseClass {
     @BeforeSuite(alwaysRun = true)
     public void setupExtent() {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        String reportPath = "test-output/SparkReport/SparkReport_" + timestamp + ".html";
+        String reportPath = "test-output/SparkReport/SparkReport.html";
         htmlReporter = new ExtentSparkReporter(reportPath);
         
         reports = new ExtentReports();

@@ -17,7 +17,7 @@
       <class name="TestClasses.AddAppointmentTest"/>
       <class name="TestClasses.AddPatVitalsTest"/>
       <class name="TestClasses.AddConditionTest"/>
-       <class name="TestClasses.EndVisitTest"/>
+      <class name="TestClasses.EndVisitTest"/>
       
       
     </classes>
